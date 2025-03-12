@@ -5,6 +5,7 @@ import { upcomingL2 } from '../../templates/upcoming'
 export const specular: ScalingProject = upcomingL2({
   id: 'specular',
   capability: 'universal',
+  isArchived: true,
   addedAt: UnixTime(1704292936), // 2024-01-03T14:42:16Z
   display: {
     name: 'Specular',
