@@ -5,6 +5,7 @@ import { upcomingL3 } from '../../templates/upcoming'
 export const songprotocol: ScalingProject = upcomingL3({
   id: 'songprotocol',
   capability: 'universal',
+  isArchived: true,
   addedAt: UnixTime(1720191862), // 2024-07-05T15:04:22Z
   hostChain: ProjectId('arbitrum'),
   display: {
